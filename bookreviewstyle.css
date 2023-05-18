@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    font-family: Poppins;
+    text-align:left;
+    background-color: #F7FAFF;
+    width: 100%;
+}
+
+header h1{
+    padding-left: 5%;
+    color: black;
+    width: 100%;
+}
+
+
+body{
+    font-family: 'Poppins';
+    width: 100%;
+    min-height: 100vh;
+    place-items: center;
+    place-content: center;
+    display: grid;
+}
+
+.content-1 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    padding-left: 50px;
+    
+}
+
+.content-2 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 0.25fr;
+    padding-left: 50px;
+}
+
+.content-3 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 0.25fr;
+    padding-left: 50px;
+}
+
+.content-4 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 0.25fr;
+    padding-left: 50px;
+}
+
+.content-5 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 0.25fr;
+    padding-left: 50px;
+}
+
+.content-6 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 0.25fr;
+    padding-left: 50px;
+}
+
+.content-7 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 0.25fr;
+    padding-left: 50px;
+}
+
+.content-8 {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 0.25fr;
+    padding-left: 50px;
+}
+
+.content-1 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-1 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+.content-2 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-2 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+.content-3 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-3 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+.content-4 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-4 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+.content-5 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-5 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+.content-6 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-6 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+.content-7 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-7 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+.content-8 h1 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.content-8 p1 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 50px;
+}
+
+h1 {
+    display: grid;
+}
+
+img {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
+
+
